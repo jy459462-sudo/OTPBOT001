@@ -133,7 +133,7 @@ except ImportError as e:
 from logs import init_logger, log_purchase_async, log_otp_received_async, log_recharge_approved_async
 
 init_logger(BOT_TOKEN, LOG_CHANNEL_ID)
-logger.info(f-1003456141509gger initialized for channel: {LOG_CHANNEL_ID}")
+logger.info(f"logger initialized for channel: {LOG_CHANNEL_ID}")
 
 
 # Async manager for background tasks
